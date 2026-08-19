@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/proxy/*"
+  to = "https://target-server.com/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify-Proxy"}
